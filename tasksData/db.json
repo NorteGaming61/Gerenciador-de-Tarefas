@@ -1,0 +1,28 @@
+{
+    "tasks": [
+      {
+        "id": 1,
+        "text": "Criar funcionalidade de adicionar tarefas",
+        "description": "",
+        "category": "Trabalho",
+        "isCompleted": false,
+        "notCompleted": false
+      },
+      {
+        "id": 2,
+        "text": "Ir à academia",
+        "description": "Malhar braço e perna",
+        "category": "Pessoal",
+        "isCompleted": false,
+        "notCompleted": false
+      },
+      {
+        "id": 3,
+        "text": "Estudar React",
+        "description": "Criando sistemas de autenticação",
+        "category": "Estudos",
+        "isCompleted": false,
+        "notCompleted": false
+      }
+    ]
+  }

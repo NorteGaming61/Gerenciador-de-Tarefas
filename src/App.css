@@ -1,0 +1,87 @@
+/*** Formatação do Layout ***/
+
+body {
+  font-family: Arial;
+  background-color: #360745;
+  padding: 30px;
+  color: #000000;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background-color: #e8e8e8;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+
+.task-form {
+  padding-bottom: 20px;
+}
+
+.task-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.task {
+  background-color: #f6f6f6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li{
+  list-style-type: none;
+  margin: 5px;
+}
+
+/*** Formatação geral ***/ 
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #583b7e;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: .8s;
+  transition: .3s;
+}
+
+button:hover {
+  background-color: #360745;
+}
+
+input, select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  width: 100%;
+}
+
+textarea
+{
+  border:1px solid #e8e8e8;
+  border-radius: 3px;
+  width:100%;
+  padding:5px;
+  box-sizing: border-box;
+}
